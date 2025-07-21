@@ -4,22 +4,11 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>jQuery UI Menu - Default functionality</title>
+        <title>Recipes</title>
         <link rel="stylesheet" href="https://code.jquery.com/ui/1.14.1/themes/base/jquery-ui.css">
-        <link rel="stylesheet" href="/resources/demos/style.css">
         <script src="https://code.jquery.com/jquery-3.7.1.js"></script>
         <script src="https://code.jquery.com/ui/1.14.1/jquery-ui.js"></script>
-        <style>
-            legend {
-                background-color: #000;
-                color: #fff;
-                padding: 3px 6px;
-            }
-
-            input {
-                margin: 0.4rem;
-            }
-        </style>
+        <link rel="stylesheet" href="/static/css/main.css">
     </head>
 
     <body>
@@ -34,67 +23,7 @@
             <legend>Recipes</legend>
             <ul class="recipes"></ul>
         </fieldset>
-
-        <script>
-            // ' " ®
-            $(async function() {
-
-                function getData() {
-                    return new Promise(function(resolve, reject) {
-                        let control = $.ajax({
-                            method: "GET",
-                            url: "/recipes/combined-recipes.json",
-                            dataType: "json",
-                        });
-
-                        control.done(function(data) {
-                            resolve(data);
-                        });
-                    });
-                }
-
-                let recipeList = $('.recipes');
-                let data = await getData();
-                data.forEach(function(recipe, r) {
-                    recipeList.append([
-                        $("<li>", {
-                            class: "recipe",
-                            text: recipe.title,
-                            index: r
-                        }),
-                    ]);
-                });
-
-                $(document.body).on("click", ".recipe", function() {
-                    var li = $(this);
-                    var index = parseInt(li.attr("index"));
-                });
-
-                $("#search").on("keyup", function(e) {
-                    const code = e.key;
-
-                    if (code !== "Enter") return;
-
-                    e.preventDefault();
-                    const that = $(this);
-                    const value = that.val();
-
-                    let recipes = $(".recipe");
-                    if (!value) {
-                        recipes.show();
-                    } else {
-                        const match = new RegExp(value, "g");
-                        let matched = recipes.filter(function() {
-                            return !!this.textContent.match(match);
-                        });
-                        let unmatched = recipes.not(matched);
-
-                        matched.show();
-                        unmatched.hide();
-                    }
-                });
-            });
-        </script>
+        
+        <script src="/static/js/main.js"></script>
     </body>
-
 </html>

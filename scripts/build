@@ -1,0 +1,87 @@
+import os
+import json
+from glob import glob
+import re
+from urllib.parse import urlparse
+
+root = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+data_dir = os.path.join(root, 'recipes')
+recipe_files = glob(os.path.join(data_dir, 'individual', '*.json'))
+recipes_full_file = os.path.join(data_dir, 'full-list.json')
+
+# Create a file named recipes.json in the data directory, which will contain the names the filepath name
+recipes_full = []
+recipe_data_struct = {
+    "title": "",
+    "directions": [],
+    "ingredients": [],
+    "lang": "",
+    "tags" : [],
+    "source": "",
+    "sourceUrl": "",
+}
+
+def get_domain_from_url(url):
+    """
+    Extracts the network location (netloc) from a given URL.
+    This typically includes the domain and potentially the port.
+    """
+    parsed_url = urlparse(url)
+    return parsed_url.netloc
+
+def remove_unwanted_chars(s):
+    """Remove unwanted characters from a string."""
+    return re.sub("\u00AE", "", s)
+
+source_names = {
+    "allrecipes.com": "All Recipes",
+    "www.epicurious.com": "Epicurious",
+    "www.williams-sonoma.com": "Williams Sonoma",
+    "www.foodnetwork.com": "Food Network",
+}
+
+for recipe_file in recipe_files:
+    recipe_contents = json.load(open(recipe_file, 'r', encoding='utf-8'))
+    # recipe = {}
+    
+    title = recipe_contents.get('title', '')
+    directions = recipe_contents.get('directions', [])
+    ingredients = recipe_contents.get('ingredients', [])
+    lang = recipe_contents.get('lang', 'en')
+    tags = recipe_contents.get('tags', [])
+    source_url = recipe_contents.get('sourceUrl', '')
+    source = source_names.get(get_domain_from_url(source_url), 'Unknown')
+    
+    recipe = {
+        "title": remove_unwanted_chars(title),
+        "directions": [remove_unwanted_chars(d) for d in directions],
+        "ingredients": [remove_unwanted_chars(i) for i in ingredients],
+        "lang": lang,
+        "tags": tags,
+        "source": source,
+        "sourceUrl": source_url,
+    }
+    
+    file_name = os.path.basename(recipe_file)
+    file_name_no_ext = os.path.splitext(file_name)[0]
+    
+    recipes_full.append({
+        "title": recipe_contents['title'],
+        "url": f"/recipes/individual/{file_name_no_ext}",
+        "source": source,
+        "sourceUrl": source_url,
+    })
+    
+    with open(os.path.join(data_dir, 'individual', file_name), 'w', encoding='utf-8') as f:
+        json.dump(recipe, f, indent=2, ensure_ascii=False)
+    
+
+# Sort the recipes by title
+recipes_full = sorted(recipes_full, key=lambda x: "-".join(re.findall(r'\w+', x['title'].lower())))
+
+# Write the full list of recipes to a JSON file
+with open(recipes_full_file, 'w', encoding='utf-8') as f:
+    json.dump(recipes_full, f, indent=2, ensure_ascii=False)
+
+print(f"Created {len(recipes_full)} recipes in {recipes_full_file}")
+

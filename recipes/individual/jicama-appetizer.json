@@ -1,15 +1,15 @@
 {
-    "directions": [
-        "Arrange the jicama on a platter. Sprinkle the lime juice and chili powder over the jicama. Serve immediately."
-    ],
-    "ingredients": [
-        "1 jicama, peeled and cut into bite-sized pieces",
-        "2 tablespoons fresh lime juice",
-        "2 tablespoons chili powder"
-    ],
-    "language": "en-US",
-    "source": "allrecipes.com",
-    "tags": [],
-    "title": "Jicama Appetizer",
-    "url": "http://allrecipes.com/recipe/132280/jicama-appetizer/"
+  "title": "Jicama Appetizer",
+  "directions": [
+    "Arrange the jicama on a platter. Sprinkle the lime juice and chili powder over the jicama. Serve immediately."
+  ],
+  "ingredients": [
+    "1 jicama, peeled and cut into bite-sized pieces",
+    "2 tablespoons fresh lime juice",
+    "2 tablespoons chili powder"
+  ],
+  "lang": "en-US",
+  "tags": [],
+  "source": "All Recipes",
+  "sourceUrl": "http://allrecipes.com/recipe/132280/jicama-appetizer/"
 }

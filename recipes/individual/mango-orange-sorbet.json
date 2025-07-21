@@ -1,17 +1,17 @@
 {
-    "directions": [
-        "Blend the mango, water, and orange juice in a blender on medium-low speed until smooth. Add the sugar and blend until incorporated.",
-        "Pour into an ice cream maker and freeze according to the manufacturer's instructions."
-    ],
-    "ingredients": [
-        "4 cups chilled cubed mango",
-        "1/2 cup cold water",
-        "1/4 cup orange juice",
-        "1/2 cup white sugar"
-    ],
-    "language": "en-US",
-    "source": "allrecipes.com",
-    "tags": [],
-    "title": "Mango Orange Sorbet",
-    "url": "http://allrecipes.com/recipe/202718/mango-orange-sorbet/"
+  "title": "Mango Orange Sorbet",
+  "directions": [
+    "Blend the mango, water, and orange juice in a blender on medium-low speed until smooth. Add the sugar and blend until incorporated.",
+    "Pour into an ice cream maker and freeze according to the manufacturer's instructions."
+  ],
+  "ingredients": [
+    "4 cups chilled cubed mango",
+    "1/2 cup cold water",
+    "1/4 cup orange juice",
+    "1/2 cup white sugar"
+  ],
+  "lang": "en-US",
+  "tags": [],
+  "source": "All Recipes",
+  "sourceUrl": "http://allrecipes.com/recipe/202718/mango-orange-sorbet/"
 }

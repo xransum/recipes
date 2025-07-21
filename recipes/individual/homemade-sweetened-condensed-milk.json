@@ -1,15 +1,14 @@
 {
-    "directions": [
-        "Pour the sugar into the milk in a saucepan. Bring to a boil over medium heat, stirring constantly. Remove from the heat and allow to cool before using."
-    ],
-    "image": "https://images.media-allrecipes.com/userphotos/560x315/1387465.jpg",
-    "ingredients": [
-        "1 1/2 cups white sugar",
-        "1 (12 fluid ounce) can evaporated milk"
-    ],
-    "language": "en-US",
-    "source": "allrecipes.com",
-    "tags": [],
-    "title": "Homemade Sweetened Condensed Milk",
-    "url": "http://allrecipes.com/recipe/170414/homemade-sweetened-condensed-milk/"
+  "title": "Homemade Sweetened Condensed Milk",
+  "directions": [
+    "Pour the sugar into the milk in a saucepan. Bring to a boil over medium heat, stirring constantly. Remove from the heat and allow to cool before using."
+  ],
+  "ingredients": [
+    "1 1/2 cups white sugar",
+    "1 (12 fluid ounce) can evaporated milk"
+  ],
+  "lang": "en-US",
+  "tags": [],
+  "source": "All Recipes",
+  "sourceUrl": "http://allrecipes.com/recipe/170414/homemade-sweetened-condensed-milk/"
 }

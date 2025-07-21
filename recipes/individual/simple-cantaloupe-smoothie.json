@@ -1,16 +1,16 @@
 {
-    "directions": [
-        "Blend yogurt, orange juice, cantaloupe, and ice cubes in a blender until smooth, about 30 seconds."
-    ],
-    "ingredients": [
-        "1 cup vanilla yogurt (such as Dannon\u00ae Light and Fit\u00ae)",
-        "1/2 cup orange juice",
-        "1/2 cup sliced cantaloupe",
-        "4 ice cubes, crushed, or as needed"
-    ],
-    "language": "en-US",
-    "source": "allrecipes.com",
-    "tags": [],
-    "title": "Simple Cantaloupe Smoothie",
-    "url": "http://allrecipes.com/recipe/238339/simple-cantaloupe-smoothie/"
+  "title": "Simple Cantaloupe Smoothie",
+  "directions": [
+    "Blend yogurt, orange juice, cantaloupe, and ice cubes in a blender until smooth, about 30 seconds."
+  ],
+  "ingredients": [
+    "1 cup vanilla yogurt (such as Dannon Light and Fit)",
+    "1/2 cup orange juice",
+    "1/2 cup sliced cantaloupe",
+    "4 ice cubes, crushed, or as needed"
+  ],
+  "lang": "en-US",
+  "tags": [],
+  "source": "All Recipes",
+  "sourceUrl": "http://allrecipes.com/recipe/238339/simple-cantaloupe-smoothie/"
 }

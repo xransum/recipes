@@ -1,16 +1,16 @@
 {
-    "directions": [
-        "Put ice cubes in a tall glass; add amaretto and grenadine. Pour enough milk into the glass to fill; stir."
-    ],
-    "ingredients": [
-        "4 cubes ice, or as desired",
-        "1 (1.5 fluid ounce) jigger amaretto liqueur, or to taste",
-        "1 fluid ounce grenadine syrup",
-        "1/4 cup milk, or as needed"
-    ],
-    "language": "en-US",
-    "source": "allrecipes.com",
-    "tags": [],
-    "title": "Non-Strawberry Milk",
-    "url": "http://allrecipes.com/recipe/238460/non-strawberry-milk/"
+  "title": "Non-Strawberry Milk",
+  "directions": [
+    "Put ice cubes in a tall glass; add amaretto and grenadine. Pour enough milk into the glass to fill; stir."
+  ],
+  "ingredients": [
+    "4 cubes ice, or as desired",
+    "1 (1.5 fluid ounce) jigger amaretto liqueur, or to taste",
+    "1 fluid ounce grenadine syrup",
+    "1/4 cup milk, or as needed"
+  ],
+  "lang": "en-US",
+  "tags": [],
+  "source": "All Recipes",
+  "sourceUrl": "http://allrecipes.com/recipe/238460/non-strawberry-milk/"
 }

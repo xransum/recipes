@@ -1,26 +1,26 @@
 {
-    "directions": [
-        "Combine the vinegar, mustard, and salt. Whisk in the oil."
-    ],
-    "ingredients": [
-        "2 tablespoons Sherry vinegar",
-        "1/2 teaspoon Dijon mustard",
-        "1/4 teaspoon kosher salt",
-        "1/4 cup walnut oil"
-    ],
-    "language": "en-US",
-    "source": "www.epicurious.com",
-    "tags": [
-        "Salad",
-        "Nut",
-        "No-Cook",
-        "Vegetarian",
-        "Salad Dressing",
-        "Vinegar",
-        "Walnut",
-        "Vegan",
-        "Gourmet"
-    ],
-    "title": "Sherry-Walnut Oil Vinaigrette",
-    "url": "http://www.epicurious.com/recipes/food/views/sherry-walnut-oil-vinaigrette-103853"
+  "title": "Sherry-Walnut Oil Vinaigrette",
+  "directions": [
+    "Combine the vinegar, mustard, and salt. Whisk in the oil."
+  ],
+  "ingredients": [
+    "2 tablespoons Sherry vinegar",
+    "1/2 teaspoon Dijon mustard",
+    "1/4 teaspoon kosher salt",
+    "1/4 cup walnut oil"
+  ],
+  "lang": "en-US",
+  "tags": [
+    "Salad",
+    "Nut",
+    "No-Cook",
+    "Vegetarian",
+    "Salad Dressing",
+    "Vinegar",
+    "Walnut",
+    "Vegan",
+    "Gourmet"
+  ],
+  "source": "Epicurious",
+  "sourceUrl": "http://www.epicurious.com/recipes/food/views/sherry-walnut-oil-vinaigrette-103853"
 }

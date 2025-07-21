@@ -1,18 +1,17 @@
 {
-    "directions": [
-        "Blend yogurt, peach slices, orange juice, almonds, and granola in a blender until smooth."
-    ],
-    "image": "https://images.media-allrecipes.com/userphotos/560x315/1282010.jpg",
-    "ingredients": [
-        "1 (6 ounce) tub vanilla-flavored yogurt (such as Yoplait\u00ae)",
-        "6 frozen peach slices",
-        "3 fluid ounces orange juice",
-        "6 tablespoons slivered almonds",
-        "6 tablespoons granola"
-    ],
-    "language": "en-US",
-    "source": "allrecipes.com",
-    "tags": [],
-    "title": "Re:Bar Re:Vive Shake",
-    "url": "http://allrecipes.com/recipe/233974/rebar-revive-shake/"
+  "title": "Re:Bar Re:Vive Shake",
+  "directions": [
+    "Blend yogurt, peach slices, orange juice, almonds, and granola in a blender until smooth."
+  ],
+  "ingredients": [
+    "1 (6 ounce) tub vanilla-flavored yogurt (such as Yoplait)",
+    "6 frozen peach slices",
+    "3 fluid ounces orange juice",
+    "6 tablespoons slivered almonds",
+    "6 tablespoons granola"
+  ],
+  "lang": "en-US",
+  "tags": [],
+  "source": "All Recipes",
+  "sourceUrl": "http://allrecipes.com/recipe/233974/rebar-revive-shake/"
 }

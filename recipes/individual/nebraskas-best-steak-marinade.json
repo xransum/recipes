@@ -1,15 +1,15 @@
 {
-    "directions": [
-        "Whisk Worcestershire sauce, garlic salt, and chili powder together in a bowl."
-    ],
-    "ingredients": [
-        "1 cup Worcestershire sauce",
-        "3/4 teaspoon garlic salt",
-        "1/2 teaspoon chili powder"
-    ],
-    "language": "en-US",
-    "source": "allrecipes.com",
-    "tags": [],
-    "title": "Nebraska's Best Steak Marinade",
-    "url": "http://allrecipes.com/recipe/237782/nebraskas-best-steak-marinade/"
+  "title": "Nebraska's Best Steak Marinade",
+  "directions": [
+    "Whisk Worcestershire sauce, garlic salt, and chili powder together in a bowl."
+  ],
+  "ingredients": [
+    "1 cup Worcestershire sauce",
+    "3/4 teaspoon garlic salt",
+    "1/2 teaspoon chili powder"
+  ],
+  "lang": "en-US",
+  "tags": [],
+  "source": "All Recipes",
+  "sourceUrl": "http://allrecipes.com/recipe/237782/nebraskas-best-steak-marinade/"
 }

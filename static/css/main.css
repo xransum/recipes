@@ -1,0 +1,45 @@
+legend {
+    background-color: #000;
+    color: #fff;
+    padding: 3px 6px;
+}
+
+input {
+    margin: 0.4rem;
+}
+
+input[type="checkbox"] + label {
+    cursor: pointer;
+}
+
+.ingredient-checkbox:checked + label,
+.step-checkbox:checked + label {
+    text-decoration: line-through;
+}
+
+.source-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px 12px;
+  background-color: #f8f8f8;
+  border-bottom: 1px solid #ddd;
+  margin-bottom: 0.5em;
+}
+
+.source-name {
+  font-weight: bold;
+}
+
+.source-link {
+  text-decoration: none;
+  color: #007bff;
+}
+
+.source-link:hover {
+  text-decoration: underline;
+}
+
+li.recipe.unmatched {
+    display: none;
+}

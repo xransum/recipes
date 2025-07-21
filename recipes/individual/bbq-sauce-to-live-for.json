@@ -1,14 +1,14 @@
 {
-    "directions": [
-        "In a medium bowl, blend barbeque sauce and duck sauce. Chill in the refrigerator until serving."
-    ],
-    "ingredients": [
-        "1 cup barbeque sauce",
-        "1 cup duck sauce"
-    ],
-    "language": "en-US",
-    "source": "allrecipes.com",
-    "tags": [],
-    "title": "BBQ Sauce to Live For",
-    "url": "http://allrecipes.com/recipe/25434/bbq-sauce-to-live-for/"
+  "title": "BBQ Sauce to Live For",
+  "directions": [
+    "In a medium bowl, blend barbeque sauce and duck sauce. Chill in the refrigerator until serving."
+  ],
+  "ingredients": [
+    "1 cup barbeque sauce",
+    "1 cup duck sauce"
+  ],
+  "lang": "en-US",
+  "tags": [],
+  "source": "All Recipes",
+  "sourceUrl": "http://allrecipes.com/recipe/25434/bbq-sauce-to-live-for/"
 }
