@@ -37,8 +37,6 @@ input {
 
     <script>
         // ' " ®
-try {
-
 $(async function() {
 
     function getData() {
@@ -54,14 +52,17 @@ $(async function() {
             });
         });
     }
-
-
-    var data = await getData();
+  
+  	let recipeList = $('.recipes');
+    let data = await getData();
     data.forEach(function(recipe, r) {
         recipeList.append([
-            $("<li>", { class: "recipe", text: recipe.title, index: r }),
-            ]);
-        });
+            $("<li>", {
+                class: "recipe",
+                text: recipe.title,
+                index: r
+            }),
+        ]);
     });
 
     $(document.body).on("click", ".recipe", function() {
@@ -81,8 +82,7 @@ $(async function() {
         let recipes = $(".recipe");
         if (!value) {
             recipes.show();
-        }
-        else {
+        } else {
             const match = new RegExp(value, "g");
             let matched = recipes.filter(function() {
                 return !!this.textContent.match(match);
@@ -94,10 +94,6 @@ $(async function() {
         }
     });
 });
-
-} catch(err) {
-    window.alert(err);
-}
     </script>
 </body>
 
