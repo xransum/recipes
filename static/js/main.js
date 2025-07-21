@@ -4,7 +4,7 @@ $(async function() {
         return new Promise(function(resolve, reject) {
             let control = $.ajax({
                 method: "GET",
-                url: "/recipes/full-list.json",
+                url: "recipes/full-list.json",
                 dataType: "json",
             });
 
@@ -60,7 +60,7 @@ $(async function() {
         var index = parseInt(li.attr("index"));
 
         var pathname = li.attr("href");
-        var recipe = await getRecipe(`${ pathname }.json`);
+        var recipe = await getRecipe(`/recipes/${ pathname }.json`);
         if (!recipe) {
             console.error("Recipe not found:", pathname);
             return;
